@@ -8,10 +8,10 @@ before_install:
   - rvm install 2.2
   - rvm use 2.2
   - gem install hiptest-publisher
-  - hiptest-publisher -c phpunit.conf --only=tests --test-run-id=235506
+  - hiptest-publisher -c phpunit.conf --only=tests --test-run-id=238658
 
 script:
   - phpunit --configuration config.xml --log-junit results.xml
 
 after_script:
-  - hiptest-publisher -c phpunit.conf --push=results.xml --test-run-id=235506
+  - hiptest-publisher -c phpunit.conf --push=results.xml --test-run-id=238658
