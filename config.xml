@@ -6,6 +6,7 @@
             <file>Tests/DisplayErrors/BeansTest.php</file>
             <file>Tests/DisplayErrors/GroundsTest.php</file>
             <file>Tests/DisplayErrors/WaterTest.php</file>
+            <file>Tests/DisplayErrors/DescalingTest.php</file>
             <file>Tests/CanBeConfiguredTest.php</file>
             <file>Tests/BadUsageTest.php</file>
             <file>Tests/SupportInternationalisationTest.php</file>
